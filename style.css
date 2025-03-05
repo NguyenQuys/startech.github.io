@@ -1,0 +1,51 @@
+/* Đặt font và reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Thiết lập nền gradient */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Thiết lập container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Nút bấm */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #ff7e5f;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hiệu ứng khi hover */
+.btn:hover {
+    background: #ff7e5f;
+    color: white;
+}
